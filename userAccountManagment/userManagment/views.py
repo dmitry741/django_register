@@ -7,7 +7,7 @@ from django.http import Http404
 def login(request):
     if request.method == 'POST':
         username = request.POST.get('login')
-        password = request.POST['password']
+        password = request.POST.get('password')
         user = auth.authenticate(username=username, password=password)
         if user:
             auth.login(request, user)
