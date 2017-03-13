@@ -14,7 +14,6 @@ def login(request):
             return HttpResponseRedirect('/')
         else:
             return render(request, 'index.html', {'username': username, 'errors': True})
-            #render_to_response('index.html', {'username': username, 'errors': True}, context_instance=RequestContext(request))
 
     raise Http404
 
@@ -25,8 +24,10 @@ def logout(request):
         return HttpResponseRedirect('/')
     raise Http404
 
+
 def register(request):
     return render(request, 'register.html')
 
-def auth(request):
+
+def myauthuser(request):
     return render(request, 'auth.html')
