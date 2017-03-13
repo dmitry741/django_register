@@ -1,6 +1,7 @@
 from django.contrib import auth
 from django.shortcuts import render, HttpResponseRedirect
 from django.http import Http404
+from .forms import MyRegistrationForm
 
 
 # Create your views here.
@@ -26,7 +27,15 @@ def logout(request):
 
 
 def register(request):
-    return render(request, 'register.html')
+    if request.method == 'POST':
+        form = MyRegistrationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect('/')
+        context = {'form': form}
+        return render(request, 'registration.html', context)
+    context = {'form': MyRegistrationForm()}
+    return render(request, 'register.html', context)
 
 
 def myauthuser(request):
