@@ -24,3 +24,9 @@ def logout(request):
         auth.logout(request)
         return HttpResponseRedirect('/')
     raise Http404
+
+def register(request):
+    return render(request, 'register.html')
+
+def auth(request):
+    return render(request, 'auth.html')

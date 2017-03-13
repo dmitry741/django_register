@@ -25,4 +25,6 @@ urlpatterns = [
 urlpatterns += [
     url(r'^user/login/$', login),
     url(r'^user/logout/$', logout),
+    url(r'^register/$', register),
+    url(r'^auth/$', auth),
 ]
