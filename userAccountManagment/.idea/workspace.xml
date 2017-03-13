@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d4a8f3f-2564-45f2-9fdb-1638b8b440f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inc_login_form.html" afterPath="$PROJECT_DIR$/templates/inc_login_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -132,8 +129,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="244" />
+    <option name="x" value="172" />
+    <option name="y" value="238" />
     <option name="width" value="1491" />
     <option name="height" value="848" />
   </component>
@@ -401,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489404642030</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Save the current work">
+      <created>1489407101387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1489407101387</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="244" width="1491" height="848" extended-state="0" />
+    <frame x="172" y="238" width="1491" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25491527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -437,7 +441,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The first commit from pyCharm" />
     <MESSAGE value="The commit from pyCharm from ridan office" />
-    <option name="LAST_COMMIT_MESSAGE" value="The commit from pyCharm from ridan office" />
+    <MESSAGE value="Save the current work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save the current work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
