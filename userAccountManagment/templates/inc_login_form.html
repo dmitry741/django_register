@@ -1,5 +1,5 @@
 {% if user.is_authenticated %}
-    <p>Добро пожаловать: {{user.username}}</p>
+    <p>Авторизация: {{user.username}}</p>
     <form method="post" action="/user/logout/">
         {% csrf_token %}
         <input type="submit" class="btn btn-default" value="Выйти">

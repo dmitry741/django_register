@@ -1,40 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-{% load staticfiles %}
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>AboutMe project</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href='{% static "bootstrap/css/bootstrap.min.css" %}'>
-    <link rel="stylesheet" type="text/css" href='{% static "style.css" %}'>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-<h1>{{caption}}</h1>
-<h2>ridan</h2>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-
-<script src='{% static "bootstrap/js/bootstrap.min.js" %}'></script>
+{% include 'common_header_begin.html' %}
 
 <div class="page-header">
     <h2>Добро пожаловать!
-        <small>площадка для тестирования авторизации</small>
+        <small>площадка для тестирования регистрации и авторизации</small>
     </h2>
 </div>
-{% include 'inc_login_form.html' %}
 
-</body>
-</html>
+<p><a href="register.html">Регистрация</a></p>
+<p><a href="register.html"'>Авторизация</a></p>
+
+{% include 'common_header_end.html' %}

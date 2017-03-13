@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1d4a8f3f-2564-45f2-9fdb-1638b8b440f5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainapp/views.py" afterPath="$PROJECT_DIR$/mainapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inc_login_form.html" afterPath="$PROJECT_DIR$/templates/inc_login_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userAccountManagment/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="85" lean-forward="false" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -74,8 +75,18 @@
       <file leaf-file-name="inc_login_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/inc_login_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+            <state relative-caret-position="17">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_header_begin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/common_header_begin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -83,18 +94,33 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="DMITRY PAVLOV &lt;dmitrypavlov74@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/inc_login_form.html" />
         <option value="$PROJECT_DIR$/userAccountManagment/urls.py" />
         <option value="$PROJECT_DIR$/userAccountManagment/settings.py" />
         <option value="$PROJECT_DIR$/userManagment/views.py" />
+        <option value="$PROJECT_DIR$/templates/common_header.html" />
         <option value="$PROJECT_DIR$/mainapp/views.py" />
+        <option value="$PROJECT_DIR$/templates/inc_login_form.html" />
+        <option value="$PROJECT_DIR$/templates/common_header_end.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
@@ -106,8 +132,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="289" />
-    <option name="y" value="209" />
+    <option name="x" value="148" />
+    <option name="y" value="244" />
     <option name="width" value="1491" />
     <option name="height" value="848" />
   </component>
@@ -205,6 +231,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -367,11 +394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489343206130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="The commit from pyCharm from ridan office">
+      <created>1489404642030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489404642030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="209" width="1491" height="848" extended-state="0" />
+    <frame x="148" y="244" width="1491" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25491527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -402,47 +436,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The first commit from pyCharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="The first commit from pyCharm" />
+    <MESSAGE value="The commit from pyCharm from ridan office" />
+    <option name="LAST_COMMIT_MESSAGE" value="The commit from pyCharm from ridan office" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/userAccountManagment/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userAccountManagment/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userManagment/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/inc_login_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -764,6 +765,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/userAccountManagment/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -772,25 +788,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userAccountManagment/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="17">
           <caret line="48" column="45" lean-forward="false" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/inc_login_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -798,7 +799,7 @@
     <entry file="file://$PROJECT_DIR$/mainapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="85" lean-forward="false" selection-start-line="4" selection-start-column="85" selection-end-line="4" selection-end-column="85" />
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -815,8 +816,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common_header_begin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inc_login_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common_header_end.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
