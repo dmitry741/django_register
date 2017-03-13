@@ -6,6 +6,12 @@
     </h2>
 </div>
 
+{% if user.is_authenticated %}
+    <p>Привет! {{user.username}}</p>
+{% else %}
+    <p>Привет! Гость</p>
+{% endif %}
+
 <p><a href="/register">Регистрация</a></p>
 <p><a href="/auth">Авторизация</a></p>
 

@@ -14,8 +14,7 @@ def login(request):
             auth.login(request, user)
             return HttpResponseRedirect('/')
         else:
-            return render(request, 'index.html', {'username': username, 'errors': True})
-
+            return render(request, 'auth.html', {'username': username, 'errors': True})
     raise Http404
 
 
@@ -33,7 +32,7 @@ def register(request):
             form.save()
             return HttpResponseRedirect('/')
         context = {'form': form}
-        return render(request, 'registration.html', context)
+        return render(request, 'register.html', context)
     context = {'form': MyRegistrationForm()}
     return render(request, 'register.html', context)
 
